@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="org.neurony.marcin.psytool.MainActivity"
+    tools:showIn="@layout/activity_main"
+    android:background="#d5d5d5">
+
+
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="2">
+
+        <ImageButton
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/imageButton1"
+            android:layout_column="0"
+            android:layout_weight="1"
+            style="@android:style/Widget.Button"
+            android:contentDescription="@string/but1_text"
+            android:scaleType="fitCenter"
+            android:onClick="klik_1"
+            android:src="@drawable/stopercz"
+            android:layout_span="1"
+            android:layout_gravity="center" />
+
+        <ImageButton
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/imageButton2"
+            android:layout_column="1"
+            android:layout_weight="1"
+            android:scaleType="fitCenter"
+            style="@android:style/Widget.Button"
+            android:src="@drawable/timercz"
+            android:onClick="klik_2"
+            android:contentDescription="@string/but2_text"
+            android:layout_span="1"
+            android:layout_gravity="center" />
+    </TableRow>
+
+
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="2">
+
+
+        <ImageButton
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/imageButton3"
+            android:layout_column="0"
+            android:layout_weight="1"
+            style="@android:style/Widget.Button"
+            android:contentDescription="@string/but3_text"
+            android:scaleType="fitCenter"
+            android:onClick="klik_3"
+            android:src="@drawable/kalkulatorcz"
+            android:layout_span="1"
+            android:layout_gravity="center" />
+
+        <ImageButton
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/imageButton4"
+            android:layout_column="1"
+            android:layout_weight="1"
+            android:scaleType="fitCenter"
+            style="@android:style/Widget.Button"
+            android:src="@drawable/krzywacz"
+            android:onClick="klik_4"
+            android:contentDescription="@string/but4_text"
+            android:layout_span="1"
+            android:layout_gravity="center" />
+    </TableRow>
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1">
+
+        <ImageView
+            android:id="@+id/imageview_animation_list_logo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/animation_list_logo"
+
+            android:scaleType="fitCenter"
+            android:layout_span="1"
+            android:layout_weight="1"
+            android:layout_column="0"
+            android:layout_gravity="center" />
+
+
+    </TableRow>
+
+
+
+</TableLayout>

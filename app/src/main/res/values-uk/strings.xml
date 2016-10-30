@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Psy-Tool</string>
+    <string name="alarm_onoff">Алярм</string>
+    <string name="apply_text">Ввести</string>
+    <string name="but1_text">Секундомір</string>
+    <string name="but2_text">Таймер</string>
+    <string name="but3_text">Калькулятор</string>
+    <string name="but4_text">Стандартні шкали</string>
+    <string name="exit">Вихід</string>
+    <string name="header_text">Психометричний помічник</string>
+    <string name="info">Довідка</string>
+    <string name="about">Про аплікацію</string>
+    <string name="lar_es">Сильний ефект</string>
+    <string name="mod_es">Помірний ефект</string>
+    <string name="no_es">Відсутність ефекту</string>
+    <string name="reset">АНУЛЮЙ</string>
+    <string name="sm_es">Незначний ефект</string>
+    <string name="start">START</string>
+    <string name="stop">STOP</string>
+    <string name="start_time">00:00:00</string>
+    <string name="text_below_error">ПОМИЛКА</string>
+    <string name="text_below_message1">Середня (M) і стандартне відхилення (SD)\nВпишіть вартість типу: 2.5;23;5.06 ...</string>
+    <string name="text_below_message2">d Когена (вартість ефекту)\nВпишіть вартість типу: M1; SD1; M2; SD2</string>
+    <string name="text_below_message3">r (вартість ефекту)\nВпишіть вартість типу: Z; N1; N2</string>
+    <string name="text_below_message4">η2 (вартість ефекту)\nВпишіть вартість типу: t; N1; N2</string>
+    <string name="text_default">Утримання "C" - вичистити</string>
+    <string name="title">Секундомір</string>
+    <string name="title_activity_calc">Калькулятор</string>
+    <string name="title_activity_calculator">Калькулятор</string>
+    <string name="title_activity_main2">Main2Activity</string>
+    <string name="title_activity_norm">Стандартна шкала</string>
+    <string name="title_activity_stoper">Секундомір</string>
+    <string name="title_activity_timer">Таймер</string>
+    <string name="volume_text">ГУЧНІСТЬ АЛЯРМУ</string>
+    <string name="z_text">результат z</string>
+
+    <string-array name="name_s">
+        <item>SD/z</item>
+        <item>C</item>
+        <item>T</item>
+        <item>Sten</item>
+        <item>Stanine</item>
+        <item>IQ</item>
+        <item>SS</item>
+    </string-array>
+
+    <string-array name="interpr_lez">
+        <item>Екстремально низький</item>
+        <item>На межі</item>
+        <item>Нижче середнього</item>
+        <item>Середній показник</item>
+        <item>Вище середнього</item>
+        <item>Підвищений</item>
+        <item>Значно вище середнього</item>
+    </string-array>
+
+    <string-array name="interpr_wan">
+        <item>Сильний розлад</item>
+        <item>Помірний розлад</item>
+        <item>Легкий розлад</item>
+        <item>Нижче середнього</item>
+        <item>Середній показник</item>
+        <item>Вище середнього</item>
+        <item>Високий показник</item>
+        <item>Дуже високий показник</item>
+        <item>Вийнятково високий показник</item>
+    </string-array>
+
+<string name="info_text"><b>Psy-Tool</b> це безкоштовна (а головне, без реклами!) аплікація з необхідним обладнанням, для щоденного застосування  в практиці психолога-діагноста. Простий в обслуговуванні таймер та секундомір з великими та зручними кнопками, калькулятор з вбудованою функцією вичислення найбільш необхідних статистичних операцій, таких як середня арифметична і стандартне відхилення, а також допомога в інтерпретації  отриманих результатів на середніх шкалах. Цілком простий але доволі практичний пристрій у Вашій кишені, завжди готовий до застосування. Якщо маєте власні уваги щодо вигляду та роботи програми, пишіть на почтову скриньку (lesniak@neurony.org). Зроблю все необхідне для задоволення потреб користувачів. . \n\nMarcin Leśniak i Neurony.org\n\nЗвукові ефекти запозичені з інтернет сторінки: www.freesfx.co.uk </string>
+<string name="info_text1"><b>Статистичні функції</b> (Активовані за допомогою кнопки STAT) містять:\n\n1. Вичислення середньої арифметичної (M) і стандартного відхилення (SD)\n- введіть дані (мінінмум 5 цифр) розділяючи їх знаком ”;”\n\n2. Обчислення величини d Cohen’s (вартість ефекту)\n- введіть дані в форматі: середня арифметична першої групи ; стандартне відхилення першої групи ; середня арифметична другої групи ; стандартне відхилення другої групи\n- калькулятор обчислює показник на основі прикладу: (M2 – M1)/sqrt((SD2^2 + SD1^2)/2)\n- інтерпретація: >0.2- незначний показник, >0.5- середній показник, >0.8- високий показник\n\n3. Обчислення величини r (вартість ефекту для статистик непараметричних – Wilcoxon, Mann-Whitney)\n- введіть дані в форматі: вартість статистик Z ; кількість осіб в першій групі ; кількість осіб в другій групі\n- калькулятор обчислює показник на основі прикладу: Z/sqrt(N1+N2)\n- інтерпретація: >0.1- незначний показник, >0.3- середній показник, >0.5- високий показник \n\n4. Обчислення величини η2 (вартість ефекту для величини тесту t для груп незалежних)\n- введіть дані в форматі: вартість статистики t ; кількість осіб в першій групі ; кількість осіб в другій групі\n- калькулятор обчислює показник на основі прикладу: t/sqrt(t) + (N1+N2-2)\n- Інтерпретація: >0.01- незначний показник, >0.06- середній показник, >0.14- високий показник\n </string>
+<string name="info_text2"><b>Стандартні шкали:</b>\n\nSD- стандартне відхилення\nz- стандартна вартість (середня арифметична= 0; стандартне відхилення= 1)\nC- центилі (середня арифметична= 50)\nT- тени (середня арифметична= 50; стандартне відхилення= 10)\nSten- стени (standard ten; середня арифметична= 5.5; стандартне відхилення= 2)\nStanine (standard nine; середня арифметична= 5; стандартне відхилення= 2)\nIQ- рівень інтелекту (середня арифметична= 100; стандартне відхилення= 15)\nSS (scaled score; середня арифметична= 10; стандартне відхилення= 3)\n\nІнтерпретація: \nПо Lezak M., Howieson D., Bigler E., Tranel D. (2012). <i>Neuropsychological Assessment.</i> 5th Ed. Oxford: Oxford University Press:\n\nЗначно вище середнього: +2.0  і вище\nПідвищений: +1.3 do 2.0\nВище середнього: +0.6 do 1.3\nСередній показник: ±0.6\nНижче середнього: -0.6 do -1.3\nНа межі: -1.3 do -2.0\nЕкстремально низький/Патологія: -2.0 i нижче\n\nПо Wanlass R. (2012). <i>The Neuropsychology Toolkit.</i> NY: Springer:\n\nВийнятково високий показник: >+3.0\nдуже високий пказник: +2.0 do +3.0\nВисокий показник: +1.0 do +2.0\nВище сеерднього: +0.67 do +1.0 \nСередній показник: +0.67 do -0.66\nНижче середнього: -0.67 do 1.0 \nЛегкий дефіцит: -1.0 до -2.0\nПомірний дефіцит: -2.0 do -3.0 \nГлибокий дефіцит: нижче -3.0\n\nРезультати від Нижчого середнього показника до Вищого середнього показника трактуються в межах норми</string>
+
+    </resources>
